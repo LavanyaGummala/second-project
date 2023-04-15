@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title></title>
+  <style>
+    body{
+      margin: 0;
+      padding: 0;
+      
+    }
+    .container {
+      overflow: hidden;
+      background: white;
+    }
+     #web{
+   
+   padding: 5px;
+  width: 350px;
+  margin-left:0;
+  
+    color:black;
+   display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+  }
+    
+     .music {
+    font-size: 30px;
+   width: 95%;
+  height: 50px;
+border: 2px solid lightblue;
+background: lightblue;
+position: fixed;
+ margin-top: 0;
+ padding-top: 0;
+ top:0;
+ 
+  }
+ 
+ .di1,.di2,.di3{
+   width: 2rem;
+   background-color: black;
+   height :1px;
+   padding: 1px;
+   margin: 3px 0;
+   margin-top: 10px;
+  
+   
+ }
+ 
+      
+ .exp{
+   font-size: 20px;
+   color: royalblue;
+margin-top: 90px;
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bold;
+ }
+ .bec{
+   font-size: 15px;
+   color: royalblue;
+   margin-top: 20px;
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+ }
+ .book{
+   border: 1px solid darkblue;
+   color: white;
+   background: darkblue;
+   margin-left: 100px;
+   margin-right: 100px;
+   margin-top: 30px;
+   text-align: center;
+   padding: 15px;
+   font-size: 17px;
+   border-radius: 20px;
+ }
+ .ab{
+   margin-top: 30px;
+ }
+ .ed{
+   background:#cce6ff;
+ }
+ .we{
+   color: darkblue;
+   font-size: 30px;
+   font-family: cursive;
+   text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+ }
+ .am{
+   font-size:15px;
+   text-align: center;
+   margin-top: 20px;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: 10px;
+   margin-left: 20px;
+   margin-right: 20px;
+ }
+ .learn{
+   border: 1px solid darkblue;
+   color: white;
+   background: darkblue;
+   margin-left: 100px;
+   margin-right: 100px;
+   margin-top: 30px;
+   text-align: center;
+   padding: 15px;
+   font-size: 19px;
+   border-radius: 20px;
+ }
+ .get{
+   margin-top: 25px;
+ }
+ .white{
+   color: darkblue;
+   font-size: 25px;
+   font-family: Lucida Sans;
+   text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+ }
+ .white1{
+   font-size:15px;
+   text-align: center;
+   margin-top: 20px;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: 10px;
+   margin-left: 20px;
+   margin-right: 20px;
+ }
+ .view{
+      border: 1px solid darkblue;
+   color: white;
+   background: darkblue;
+   margin-left: 100px;
+   margin-right: 100px;
+   margin-top: 30px;
+   text-align: center;
+   padding: 15px;
+   font-size: 19px;
+   border-radius: 20px;
+   margin-bottom: 50px;
+ }
+ .are{
+   text-align: center;
+   
+ }
+ .cup{
+      background:#cce6ff;
+      padding:15px;
+ }
+ .cup1{
+      color: darkblue;
+   font-size: 30px;
+   font-family: lucida sans;;
+   text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+ }
+ .color{
+   background: #e6e6ff;
+ }
+ .contact{
+   color: darkblue;
+   font-size: 30px;
+   font-family: lucida sans;;
+   text-align: left;
+  margin-top: 15px;
+ margin-left: 20px;
+ 
+ } 
+     .contact1 input{
+   width: 300px;
+     padding: 10px;
+     margin: 10px;
+     background-color: transparent;
+     outline: none;
+     color:white;border
+     
+ }
+ .contact1 textarea{
+   width: 300px;
+     padding: 10px;
+     margin: 10px;
+     background-color: transparent;
+     outline: none;
+     color:white;
+ }
+  .first{
+   font-size: 20px;
+   margin-left: 15px;
+   margin-top: 10px;
+ }
+ .back{
+   background: darkblue;
+ }
+ .last{
+   color: white;
+   margin-top: 20px;
+   display: flex;
+   justify-content:center;
+   align-items:center;
+   font-size: 20px;
+   
+ }
+ .last1{
+   margin-top: 40px;
+   font-size: 20px;
+   color: white;
+   text-align: center;
+ }
+ .close{
+     border: 1px solid white;
+   color: black;
+ background-color: white;
+   margin-left: 100px;
+   margin-right: 100px;
+   margin-top: 30px;
+   text-align: center;
+   padding: 10px;
+   font-size: 18px;
+   border-radius: 10px;
+   margin-bottom: 20px;
+ }
+ .out{
+   text-align: center;
+   font-size: 18px;
+   color: royalblue;
+ }
+  </style>
+</head>
+
+<body>
+<div class="container">
+  <div class="music" id="web">
+    <i class="fa fa-music"style="font-size:50px;color:black;margin-top:0px;margin-left:0px"</i>
+    <div style="margin-top: 15px; margin-right:60px;font-size: 25px">Strings & Sound</div>
+        
+   <div>
+ 
+    <div class="di1"></div>
+    <div class="di1"></div>
+   <div class="di1"></div>
+</div>
+
+</div>
+<div class="exp">
+  Experience the <br>Musical Journey
+</div>
+<div class="bec">
+  Become a musician through<br> professional lessons
+</div>
+
+<div class="book">
+  Book Now
+</div>
+<div class="ed">
+<div class="ab">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKqAF5fZh-yuz38g9rxukXYhztWNyPeBLIrQ&usqp=CAU"width="100%">
+</div>
+
+  <div class="we">
+    We Create Music Together
+  </div>
+  <div class="am">
+    I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.<br><br>
+    This is a great space to write a long text about your company and your services. You can use this space to go into a little more detail about your company. Talk about your team and what services you provide. Tell your visitors the story of how you came up with the idea for your business and what makes you different from your competitors. Make your company stand out and show your visitors who you are.
+  </div>
+<div class="learn">
+  Learn More
+</div>
+
+
+<div class="get">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGB5t5pY2KP_9n1NIYBmQCsLmxIld_hKBtYQ&usqp=CAU"width="100%">
+</div>
+</div>
+<div class="white">
+  Lessons With an Array of Instruments
+</div>
+<div class="white1">
+  I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font
+</div>
+<div class="view">
+  View Lesson 
+</div>
+<div class="are">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsQA8_dqDVbTSvjIvM1F1wS056Wz26BAEQPA&usqp=CAU"width="90%" height="50%">
+  
+ 
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYq0LEFIzqwxOACfH9dQmTegT-iGOVmRkYbw&usqp=CAU"width="90%">
+   
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkNgOsQ7p14FLLi5NZf9TeI2AZYVFMR3iVvw&usqp=CAU"width="90%">
+
+</div>
+<div class="cup">
+ <div class="cup1">
+   Meet the Musical Team
+ </div> 
+</div>
+<div class="white1">
+  I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. 
+</div>
+<div class="view">
+  Learn More
+</div>
+<div class="color">
+<div class="image">
+  <img src="https://c4.wallpaperflare.com/wallpaper/337/915/733/girl-music-guitar-wallpaper-thumb.jpg"width="100%">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLs96g5q9bxIwHt_jZcCspDSROjONfVkqSyQ&usqp=CAU"width="100%">
+  <img src="https://static.wixstatic.com/media/2a1a02_4e74f13fe04849e6abf9cc615568c56c~mv2.jpg/v1/fill/w_640,h_400,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/2a1a02_4e74f13fe04849e6abf9cc615568c56c~mv2.jpg"width="100%">
+  <img src="https://static.wixstatic.com/media/2a1a02_6bc21e1b847e4a67beb5664bd7732396~mv2.jpg/v1/fill/w_640,h_426,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/2a1a02_6bc21e1b847e4a67beb5664bd7732396~mv2.jpg"width="100%">
+  <img src="https://static.wixstatic.com/media/2a1a02_a5d9083525a449128ce60aab47066628~mv2.jpg/v1/fill/w_640,h_632,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/2a1a02_a5d9083525a449128ce60aab47066628~mv2.jpg"width="100%">
+</div>
+
+<div class="white">
+  Listen to Our Students
+</div>
+
+<div class="white1">
+  “I'm a testimonial. Click to edit me and add text that says something nice about you and your services.”<br><br><br>
+  
+  Harold, 31<br><br><br><hr><br><br>
+  “I'm a testimonial. Click to edit me and add text that says something nice about you and your services.”<br><br><br>
+  
+  Jessica, 16<br><br><br><hr><br><br>
+  “I'm a testimonial. Click to edit me and add text that says something nice about you and your services.”<br><br><br>
+
+Claire, 27<br><br>
+</div>
+<div class="are">
+  <img src="https://static.wixstatic.com/media/2a1a02_87056ba1b3c44b37a9da585511c19b0e~mv2.jpg/v1/fill/w_640,h_484,al_r,q_80,usm_0.66_1.00_0.01,enc_auto/2a1a02_87056ba1b3c44b37a9da585511c19b0e~mv2.jpg"width="100%">
+</div>
+</div>
+<div class="contact">
+  Contact Us
+</div>
+ <form class="contact1">  
+<div class="first">First name*
+   </div>
+  <input type="text">
+    <div class="first">Last name*
+      </div>
+  <input type="text">
+  <div class="first">Gmail*
+      </div>
+      <input type="text">
+     <div class="first">phone no*
+      </div>
+      <input type="text"></input>
+          <div class="first">text your message*..</div>
+   <textarea placeholder rows="10" cols="30"></textarea>
+      
+     </form> 
+    <div class="view">
+      Submit 
+    </div> <br><br>
+    <div class="back">
+     <div class="last">
+   <i class="fa fa-music" style="font-size:30px;color:white;margin-top: 50px" </i><div style="margin-top: 50px; margin-left: 20px">Strings & Sound</div><br><br>
+   </div>
+  <div class="last1"> 
+   About<br><br>
+    Lessons<br><br>
+
+    Online Courses<br>
+    News<br><br>
+
+   <u>Contact</u><br><br>
+   
+   500 Terry Francine Street,<br>
+
+San Francisco, CA 94158<br>
+
+tel: 123-456-7890<br>
+Email: info@mysite.com<br><br><br>
+
+<u>Hours of operation</u><br><br>
+Mon-Fri - 9:00 am – 8:00 pm<br>
+Sat -  9:00 am – 5:00 pm<br>
+Sun - Closed<br><br><br>
+<u>Follow</u><br>
+  <span> <i class="fa fa-facebook" style="font-size:30px;color:white;margin-top: 50px" </i>
+   <i class="fa fa-instagram" style="font-size:30px;color:white;margin-top: 50px" </i>
+    <i class="fa fa-youtube"style="font-size:30px;color:white"</i></span>
+    </div>
+    <div class="close">
+      Book a Lesson
+    </div> <br><br>
+
+ </div>
+ 
+<div class="out">
+  © 2035 by Strings & Sound. Powered and secured by Wix
+</div>
+</div>
+</body>
+
+</html><link rel="import" href="component.html">
